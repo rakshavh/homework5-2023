@@ -121,11 +121,10 @@ Edit the css for the pricing class to match our example. You should use flex and
     }
 
 
-/**Step #13 Modify the first header (the one not inside main) so that it remains visible at the top of the screen even as we scroll down. Make sure that it is always visible. 
-Note: Could not figure it out, used IDs instead **/ 
+/**Step #13 Modify the first header (the one not inside main) so that it remains visible at the top of the screen even as we scroll down. Make sure that it is always visible. **/ 
 
-    #stickynav{
-        position: fixed;
+    body > header{
+        position: sticky;
         top: 0;
         width: 100%;
     }
